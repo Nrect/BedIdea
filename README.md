@@ -1,5 +1,3 @@
-# hostel-palmburg
-
 ## Build Setup
 
 ```bash
