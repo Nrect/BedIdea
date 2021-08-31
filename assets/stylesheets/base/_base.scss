@@ -2,35 +2,34 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
+/**
+ * Set up a decent box model on the root element
+ */
+html {
   box-sizing: border-box;
 }
 
-body {
-  //background-color: $--background;
-  //font-family: 'Montserrat', serif;
-  //font-weight: 600;
-  //font-style: normal;
-  //font-size: 14px;
-  //line-height: 1.75;
-  //color: $--text-primary;
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-h1, h2 {
-  //font-family: 'Druk Wide Cy TT Super', sans-serif;
-  //font-weight: 400;
-  //color: $--text-primary;
-}
-
+/**
+ * Basic styles for links
+ */
 a {
-  //color: $--primary;
+  color: $brand-color;
   text-decoration: none;
-}
 
-ul {
-  list-style: none;
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
 }
