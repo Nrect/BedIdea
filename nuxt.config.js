@@ -29,7 +29,9 @@ export default {
     '@/assets/stylesheets/main.scss'
   ],
 
-  plugins: [],
+  plugins: [
+    '~/plugins/slider.js'
+  ],
 
   components: true,
 
@@ -37,7 +39,38 @@ export default {
     '@nuxtjs/eslint-module'
   ],
 
-  modules: [],
+  modules: ['nuxt-i18n'],
 
-  build: {}
+  i18n: {
+    strategy: 'prefix_except_default',
+    locales: [
+      {
+        code: 'ru',
+        file: 'ru.js'
+      },
+      {
+        code: 'en',
+        file: 'en.js'
+      }
+    ],
+    defaultLocale: 'ru',
+    lazy: true,
+    langDir: 'static/locales',
+    skipSettingLocaleOnNavigate: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      onlyOnRoot: true
+    }
+  },
+
+  build: {
+    postcss: {
+      preset: {
+        autoprefixer: {
+          overrideBrowserslist: ['last 3 versions', '> 1%']
+        }
+      }
+    }
+  }
 }
