@@ -23,20 +23,6 @@
     margin-bottom: 25px;
 
     position: relative;
-
-    &:after {
-      content: "";
-      display: block;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-
-
-      width: 180px;
-      height: 5px;
-      border-radius: 5px;
-      background: $--main;
-    }
   }
 
   &__logo {
@@ -48,7 +34,7 @@
 
   &__nav-list {
     & > li > .nuxt-link-active {
-      color: $--yellow;
+      color: $--secondary;
     }
   }
 
@@ -60,7 +46,7 @@
     font-size: 18px;
 
     &:hover {
-      color: $--yellow;
+      color: $--secondary;
     }
   }
 
@@ -73,7 +59,7 @@
   }
 
   &__contact > a:hover {
-    color: $--yellow;
+    color: $--secondary;
   }
 
   &__contacts {
@@ -138,7 +124,7 @@
   &__contact-icon {
     width: 34px;
     height: 24px;
-    fill: $--yellow;
+    fill: $--secondary;
   }
 
   .rope-border {

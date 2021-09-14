@@ -9,6 +9,8 @@ $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvet
 /// Code (monospace) font family
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
+/// delay
+$transition-delay: .3s;
 
 /// Copy text color
 $text-color: rgb(34, 34, 34) !default;
@@ -28,10 +30,11 @@ $screen-xl-min: 1200px;
 $base-url: '/assets/' !default;
 
 
-
 //tmp
+$--primary: #594593;
+$--secondary: #f8bd23;
+$--primary-bg: #7F9B26;
 $--black: #1C1C1C;
-$--yellow: #F4E240;
 $--white: #FFF;
 
 $--black-darker: #000419;

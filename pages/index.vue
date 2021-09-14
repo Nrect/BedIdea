@@ -1,13 +1,9 @@
-<template lang="pug">
-  .container
-    h1.title.title--primary Starter template
-    logo
+<template>
+  <div class="container">
+    Index page
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo'
-
-export default {
-  components: { Logo }
-}
+export default {}
 </script>

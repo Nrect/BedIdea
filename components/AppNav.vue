@@ -1,38 +1,62 @@
 <template>
   <nav class="nav">
-    <ul class="nav__list">
-      <slot name="left-nav" />
-      <li v-for="link in getLinkList.left" :key="link.path" class="nav-item">
+    <div class="nav__wrapper">
+      <button>Забронировать</button>
+      <ul class="nav__list">
+        <!--      <slot name="left-nav" />-->
+        <li v-for="link in getLinkList.left" :key="link.path" class="nav-item">
+          <nuxt-link
+            class="nav-item__link"
+            :to="localePath(link.path)"
+            :exact="link.exact"
+          >
+            {{ link.name[actualLocale] }}
+          </nuxt-link>
+        </li>
+      </ul>
+      <logo />
+      <ul class="nav__list">
+        <!--      <slot name="right-nav" />-->
+        <li v-for="link in getLinkList.right" :key="link.path" class="nav-item">
+          <nuxt-link
+            class="nav-item__link"
+            :to="localePath(link.path)"
+            :exact="link.exact"
+          >
+            {{ link.name[actualLocale] }}
+          </nuxt-link>
+        </li>
+      </ul>
+      <div class="header-nav__i18n">
         <nuxt-link
-          class="nav-item__link"
-          :to="localePath(link.path)"
-          :exact="link.exact"
+          class="header-nav__i18n-btn"
+          :to="switchLocalePath('ru')"
+          exact
+          @click.native="changeLanguage('ru')"
         >
-          {{ link.name[actualLocale] }}
+          РУС
         </nuxt-link>
-      </li>
-    </ul>
-    <div>LOGO</div>
-    <ul class="nav__list">
-      <slot name="right-nav" />
-      <li v-for="link in getLinkList.right" :key="link.path" class="nav-item">
+        |
         <nuxt-link
-          class="nav-item__link"
-          :to="localePath(link.path)"
-          :exact="link.exact"
+          class="header-nav__i18n-btn"
+          :to="switchLocalePath('en')"
+          exact
+          @click.native="changeLanguage('en')"
         >
-          {{ link.name[actualLocale] }}
+          ENG
         </nuxt-link>
-      </li>
-    </ul>
+      </div>
+    </div>
   </nav>
 </template>
 
 <script>
 import { linksNav } from '~/content/links'
+import Logo from '~/components/Logo'
 
 export default {
   name: 'AppNav',
+  components: { Logo },
   computed: {
     getLinkList () {
       return {
