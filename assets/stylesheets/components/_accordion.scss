@@ -1,8 +1,8 @@
 .accordion {
   &__tab {
     margin-bottom: 15px;
-    border: 1px solid $--main-lighter;
-    background: $--gray;
+
+    background: $--white;
     display: block;
 
     animation-name: slideDown;
@@ -23,6 +23,15 @@
       transform: rotate(90deg);
     }
 
+    &:checked ~ .accordion__header {
+      background-color: $--secondary;
+      color: $--white;
+    }
+
+    &:checked ~ .accordion__header > .accordion__icon {
+      fill: $--white;
+    }
+
     &:checked ~ .accordion__content {
       display: block;
     }
@@ -36,8 +45,11 @@
     align-items: center;
     justify-content: space-between;
 
+    color: $--gray-text;;
     font-size: 24px;
     text-transform: uppercase;
+
+    background-color: $--white;
 
     cursor: pointer;
     transition: background 0.2s;
@@ -52,7 +64,7 @@
     min-width: 24px;
     width: 24px;
     height: 24px;
-    fill: $--main;
+    fill: $--gray-text;
 
     &--minus {
       display: none;

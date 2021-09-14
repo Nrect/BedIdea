@@ -12,6 +12,9 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 /// delay
 $transition-delay: .3s;
 
+// border
+$--border-radius: 20px;
+
 /// Copy text color
 $text-color: rgb(34, 34, 34) !default;
 $brand-color: rgb(229, 0, 80) !default;
@@ -30,12 +33,18 @@ $screen-xl-min: 1200px;
 $base-url: '/assets/' !default;
 
 
-//tmp
+// colors
 $--primary: #594593;
 $--secondary: #f8bd23;
-$--primary-bg: #7F9B26;
 $--black: #1C1C1C;
 $--white: #FFF;
+// colors bg
+$--primary-bg: #7F9B26;
+$--body-bg: #F5F6F6;
+/// colors text
+
+$--gray-text: #8B8B8B;
+
 
 $--black-darker: #000419;
 $--black-text: rgba(40, 54, 75, 1);

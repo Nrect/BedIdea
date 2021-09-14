@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the default page.
+// -----------------------------------------------------------------------------
+
+.page-section {
+  padding: 88px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .page-section {
+    padding: 52px 0;
+  }
+
+}

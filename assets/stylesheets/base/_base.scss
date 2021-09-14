@@ -14,6 +14,10 @@ html {
   @extend %transition;
 }
 
+body {
+  background-color: $--body-bg;
+}
+
 a {
   color: $--secondary;
   text-decoration: none;

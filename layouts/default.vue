@@ -2,7 +2,7 @@
   <div>
     <app-sprites />
     <app-header />
-    <Nuxt />
+    <Nuxt class="page-section" />
     <app-footer />
   </div>
 </template>
