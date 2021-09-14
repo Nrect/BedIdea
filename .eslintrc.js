@@ -13,6 +13,7 @@ module.exports = {
   ],
   plugins: [
   ],
+  ignorePatterns: ['AppSprites.vue'],
   // add your custom rules here
   rules: {}
 }

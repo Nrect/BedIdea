@@ -1,12 +1,17 @@
-<template lang="pug">
-  div
-    app-sprites
-    Nuxt
+<template>
+  <div>
+    <app-sprites />
+    <app-header />
+    <Nuxt />
+    <app-footer />
+  </div>
 </template>
 <script>
 import AppSprites from '~/components/AppSprites'
+import AppHeader from '~/components/AppHeader'
+import AppFooter from '~/components/AppFooter'
 
 export default {
-  components: { AppSprites }
+  components: { AppFooter, AppHeader, AppSprites }
 }
 </script>

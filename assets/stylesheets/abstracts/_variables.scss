@@ -24,20 +24,21 @@ $screen-md-min: 768px;
 $screen-lg-min: 992px;
 $screen-xl-min: 1200px;
 
-
 /// Relative or absolute URL where all assets are served from
 $base-url: '/assets/' !default;
 
 
 
 //tmp
-$--black: #28364B;
+$--black: #1C1C1C;
+$--yellow: #F4E240;
+$--white: #FFF;
+
 $--black-darker: #000419;
 $--black-text: rgba(40, 54, 75, 1);
 $--black-light: rgba(40, 54, 75, .2);
 $--gray: #F1F0E8;
 $--gray-lighter: rgba(241, 240, 232, .5);
-$--white: #FFFFFF;
 $--main: #CEBD88;
 $--main-darker: #b09f6a;
 $--main-lighter: rgba(206, 189, 136, .5);
