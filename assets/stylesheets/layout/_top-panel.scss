@@ -1,0 +1,19 @@
+.top-panel {
+  padding: 50px 0;
+
+  color: $--white;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: none;
+  background-color: $--primary-bg--light;
+
+  &--display {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .top-panel{
+    padding: 30px 0;
+  }
+}
