@@ -3,18 +3,23 @@
  */
 body {
   color: $text-color;
+  letter-spacing: 2px;
   font: normal 125% / 1.4 $text-font-stack;
 }
 
 h1 {
   font-size: 45px;
+  letter-spacing: $--spacing-title;
 }
 
 h2 {
   font-size: 35px;
+  letter-spacing: $--spacing-title;
 }
 
-
+p{
+  color: $--gray-text;
+}
 
 @media screen and (max-width: 992px) {
   h1 {

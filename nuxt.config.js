@@ -26,7 +26,8 @@ export default {
   },
 
   css: [
-    '@/assets/stylesheets/main.scss'
+    '@/assets/stylesheets/main.scss',
+    'hooper/dist/hooper.css'
   ],
 
   plugins: [

@@ -23,7 +23,7 @@ $screen-lg-min: 992px;
 $screen-xl-min: 1200px;
 
 /// Relative or absolute URL where all assets are served from
-$base-url: '/assets/' !default;
+$base-url: '~assets/images/' !default;
 
 // colors
 $--primary: #594593;
@@ -37,7 +37,8 @@ $--secondary-bg: #81C5D8;
 $--body-bg: #F5F6F6;
 /// colors text
 $--gray-text: #8B8B8B;
-
+/// spacing
+$--spacing-title: 9.5px;
 
 //trash
 $text-color: rgb(34, 34, 34) !default;
