@@ -30,7 +30,10 @@
 'components/burger-btn',
 'components/logo',
 'components/card-about',
+'components/services-cards',
+'components/title',
 'components/quote';
 
 // 6. Page-specific styles
-@import 'pages/page-section';
+@import 'pages/services',
+'pages/page-section';

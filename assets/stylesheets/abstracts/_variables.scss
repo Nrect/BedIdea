@@ -15,13 +15,6 @@ $transition-delay: .3s;
 // border
 $--border-radius: 20px;
 
-/// Copy text color
-$text-color: rgb(34, 34, 34) !default;
-$brand-color: rgb(229, 0, 80) !default;
-$light-grey: rgb(237, 237, 237) !default;
-$mid-grey: rgb(153, 153, 153) !default;
-$dark-grey: rgb(68, 68, 68) !default;
-
 
 /// Breakpoints
 $screen-sm-min: 576px;
@@ -32,7 +25,6 @@ $screen-xl-min: 1200px;
 /// Relative or absolute URL where all assets are served from
 $base-url: '/assets/' !default;
 
-
 // colors
 $--primary: #594593;
 $--secondary: #f8bd23;
@@ -41,12 +33,18 @@ $--white: #FFF;
 // colors bg
 $--primary-bg: #7F9B26;
 $--primary-bg--light: #9ec12f;
+$--secondary-bg: #81C5D8;
 $--body-bg: #F5F6F6;
 /// colors text
-
 $--gray-text: #8B8B8B;
 
 
+//trash
+$text-color: rgb(34, 34, 34) !default;
+$brand-color: rgb(229, 0, 80) !default;
+$light-grey: rgb(237, 237, 237) !default;
+$mid-grey: rgb(153, 153, 153) !default;
+$dark-grey: rgb(68, 68, 68) !default;
 $--black-darker: #000419;
 $--black-text: rgba(40, 54, 75, 1);
 $--black-light: rgba(40, 54, 75, .2);

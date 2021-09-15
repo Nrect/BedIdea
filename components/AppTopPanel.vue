@@ -46,14 +46,9 @@ export default {
       let routeName = ''
       try {
         routeName = this.$route.name.slice(0, -5)
+        return routeName === 'index' ? 'top-panel' : 'top-panel top-panel--display'
       } catch (e) {
-        return 'intro--error-page'
-      }
-      switch (routeName) {
-        case 'index':
-          return 'top-panel'
-        default:
-          return 'top-panel top-panel--display'
+        return 'top-panel top-panel--display'
       }
     }
   },
