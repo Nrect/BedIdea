@@ -14,7 +14,7 @@ $transition-delay: .3s;
 
 // border
 $--border-radius: 20px;
-
+$--border-radius--img: $--border-radius $--border-radius 0 0;
 
 /// Breakpoints
 $screen-sm-min: 576px;
@@ -39,6 +39,8 @@ $--body-bg: #F5F6F6;
 $--gray-text: #8B8B8B;
 /// spacing
 $--spacing-title: 9.5px;
+//shadow
+$--card-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
 
 //trash
 $text-color: rgb(34, 34, 34) !default;

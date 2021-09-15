@@ -3,6 +3,11 @@
   flex-direction: row;
 }
 
+%display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 %display-flex-space-between {
   display: flex;
   flex-direction: row;

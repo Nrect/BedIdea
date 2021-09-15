@@ -17,7 +17,7 @@ h2 {
   letter-spacing: $--spacing-title;
 }
 
-p{
+p {
   color: $--gray-text;
 }
 
@@ -36,5 +36,11 @@ p{
   }
   h3 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 16px;
   }
 }

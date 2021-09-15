@@ -1,3 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.button {
+  border: none;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  p {
+    color: $--white;
+  }
+
+  &--primary {
+    background-color: $--primary;
+
+    &:hover {
+      background-color: darken($--primary, 10%);
+    }
+  }
+
+  &--secondary {
+    background-color: $--secondary-bg;
+
+    &:hover {
+      background-color: darken($--secondary-bg, 10%);
+    }
+  }
+}
