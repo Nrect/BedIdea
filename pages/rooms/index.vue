@@ -11,9 +11,8 @@
                 //source(type="image/jpeg" :srcSet="room.imgSrc.jpg.srcSet")
               img(:src="room.imgSrc.jpg")
               .room-card__buttons
-                span.room-card__btn.button.button--primary
-                  nuxt-link(:to="localePath('/rooms/'+room.slug)")
-                    p {{ translate.learnMore }}
+                nuxt-link(:to="localePath('/rooms/'+room.slug)").room-card__btn.button.button--primary
+                  p {{ translate.learnMore }}
                 button().room-card__btn.button.button--secondary
                   p {{ translate.booking }}
             .room-card__wrapper

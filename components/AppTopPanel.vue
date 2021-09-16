@@ -17,29 +17,29 @@ export default {
       return this.$route.params.id
     },
     getPageName () {
-      let routeName = ''
       try {
+        let routeName = ''
         routeName = this.$route.name.slice(0, -5)
+        switch (routeName) {
+          case 'index':
+            return this.$t('introTitle.index')
+          case 'about-us':
+            return this.$t('introTitle.aboutUs')
+          case 'rooms':
+            return this.$t('introTitle.rooms')
+          case 'services':
+            return this.$t('introTitle.services')
+          case 'faq':
+            return this.$t('introTitle.faq')
+          case 'contacts':
+            return this.$t('introTitle.contacts')
+          case 'rooms-id':
+            return this.getRoomName(this.getRouterParam, 'title')
+          default:
+            return routeName
+        }
       } catch (e) {
-        return 'An error has occurred'
-      }
-      switch (routeName) {
-        case 'index':
-          return this.$t('introTitle.index')
-        case 'about-us':
-          return this.$t('introTitle.aboutUs')
-        case 'rooms':
-          return this.$t('introTitle.rooms')
-        case 'services':
-          return this.$t('introTitle.services')
-        case 'faq':
-          return this.$t('introTitle.faq')
-        case 'contacts':
-          return this.$t('introTitle.contacts')
-        case 'rooms-id':
-          return this.getRoomName(this.getRouterParam, 'title')
-        default:
-          return routeName
+        return 'An error route has occurred'
       }
     },
     getIntroClass () {
@@ -61,7 +61,7 @@ export default {
         'ten-room': this.$t('roomsTitles.titleTen'),
         'twelve-room': this.$t('roomsTitles.titleTwelve')
       }
-      return param === true ? groupTitle[param] : 'An error has occurred'
+      return groupTitle[param]
     }
     // ...mapActions('layout', ['toggleBookingModal'])
   }

@@ -7,6 +7,8 @@
   background: $--black url("#{$base-url}gallery-bg.jpg") center no-repeat;
 
   &__slider {
+    margin-top: 20px;
+
     height: auto !important;
     cursor: grab;
   }
@@ -34,7 +36,7 @@
   }
 
   &__buttons {
-    margin-top: 45px;
+    margin-top: 20px;
 
     @extend %display-flex;
     justify-content: center;
@@ -43,36 +45,28 @@
 
   &__btn {
     margin: 0 2px;
-    background: $--white;
-    border: 1px solid $--white;
-    width: 46px;
-    height: 46px;
+    width: 42px;
+    height: 42px;
 
     font-size: 20px;
+    background-color: $--primary-bg--light;
 
-    cursor: pointer;
+    &:nth-child(1) {
+      border-radius: $--border-radius 0 0 $--border-radius;
+    }
 
-    span {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 44px;
-
-      border: 1px solid #F1F0E8;
+    &:nth-child(2) {
+      border-radius: 0 $--border-radius $--border-radius 0;
     }
 
     &:hover {
-      border-color: $--main;
-      background: $--main;
-
-      svg {
-        fill: $--white;
-      }
+      background: $--secondary;
     }
 
     svg {
-      width: 24px;
-      height: 24px;
+      width: 21px;
+      height: 21px;
+      fill: $--white;
     }
   }
 

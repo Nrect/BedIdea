@@ -8,8 +8,14 @@
   cursor: pointer;
   overflow: hidden;
 
+  @extend %transition;
+
   p {
     color: $--white;
+  }
+
+  &--rounded {
+    border-radius: $--border-radius;
   }
 
   &--primary {

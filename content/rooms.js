@@ -57,6 +57,11 @@ export const roomsData = [
         jpg: require('@/assets/images/2room/r1.jpg')
         // jpg: require('@/assets/images/room6/1.jpg?resize'),
         // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
+      },
+      {
+        jpg: require('@/assets/images/2room/r2.jpg')
+        // jpg: require('@/assets/images/room6/1.jpg?resize'),
+        // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
       }
     ],
     additionContent: [

@@ -22,10 +22,12 @@
           h3.card-about__text-title {{advantage.title}}
           p.card-about__text {{advantage.description}}
         .card-about__buttons
-          span.card-about__btn.btn
-            nuxt-link(:to="localePath('/faq')") {{ translate.living }}
-          span.card-about__btn.btn.btn--secondary
-            nuxt-link(:to="localePath('/contacts')") {{ translate.contactsUs }}
+          span.card-about__btn.button.button--primary.button--rounded
+            nuxt-link(:to="localePath('/faq')")
+              p {{ translate.living }}
+          span.card-about__btn.button.button--secondary.button--rounded
+            nuxt-link(:to="localePath('/contacts')")
+              p {{ translate.contactsUs }}
 </template>
 
 <script>

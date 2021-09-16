@@ -5,7 +5,6 @@
       hooper.gallery__slider(
         ref="carousel1"
         :settings="hooperSettings"
-        @afterSlide="checkSlideOption"
       )
         slide(v-for="(img,i) in galleryImages" :key="i").gallery__slide
           .gallery__img
@@ -15,14 +14,12 @@
             //  source(type="image/jpeg" :srcSet="img.jpg.srcSet")
             img(:src="img.jpg")
       .gallery__buttons
-        button(@click.prevent="slidePrev" ref="prevBtn").gallery__btn
-          span
-            svg(style="transform: rotate(180deg);")
-              use(xlink:href="#angle")
-        button(@click.prevent="slideNext" ref="nextBtn").gallery__btn
-          span
-            svg
-              use(xlink:href="#angle")
+        button(@click.prevent="slidePrev" ref="prevBtn").gallery__btn.button
+          svg(style="transform: rotate(180deg);")
+            use(xlink:href="#angle")
+        button(@click.prevent="slideNext" ref="nextBtn").gallery__btn.button
+          svg
+            use(xlink:href="#angle")
 </template>
 <script>
 export default {
@@ -82,22 +79,6 @@ export default {
     },
     slideNext () {
       this.$refs.carousel1.slideNext()
-    },
-    checkSlideOption (aboutSlide) {
-      console.log(this.$refs.carousel1)
-      // const slider = this.$refs.carousel1
-      // const nextButton = this.$refs.nextBtn
-      // const prevButton = this.$refs.prevBtn
-      // nextButton.disabled = false
-      // prevButton.disabled = false
-      // if (aboutSlide.currentSlide === 0) {
-      //   prevButton.disabled = true
-      //   nextButton.disabled = false
-      // }
-      // if (aboutSlide.currentSlide === slider.slidesCount - Math.min(slider.config.itemsToShow, slider.slidesCount)) {
-      //   nextButton.disabled = true
-      //   prevButton.disabled = false
-      // }
     }
   }
 
