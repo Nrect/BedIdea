@@ -1,5 +1,5 @@
 <template lang="pug">
-  .contacts
+  .contacts.page-section
     .container
       .card-about(style="margin:0 auto;max-width:1000px")
         .card-about__map

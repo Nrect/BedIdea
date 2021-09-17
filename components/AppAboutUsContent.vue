@@ -1,5 +1,5 @@
 <template lang="pug">
-  .wrapper
+  .page-section
     .card-about
       hooper(ref="carousel" :settings="hooperSettings").card-about__slider
         slide.card-about__slide(v-for="(img,i) in aboutImages" :key="i")

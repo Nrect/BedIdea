@@ -1,5 +1,5 @@
 <template lang="pug">
-  .services
+  .services.page-section
     .container
       .wrapper
         h2.title {{ this.$t('serviceTypes').free }}

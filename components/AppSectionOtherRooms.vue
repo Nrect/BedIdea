@@ -1,5 +1,5 @@
 <template lang="pug">
-  .other-rooms-section
+  .other-rooms-section.page-section
     .container
       h2.title {{sectionTitle}}
         //.card-slider
@@ -86,7 +86,7 @@ export default {
             itemsToShow: 2
           },
           556: {
-            itemsToShow: 1
+            itemsToShow: 2
           }
         }
       }

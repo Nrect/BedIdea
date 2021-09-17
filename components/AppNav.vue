@@ -1,7 +1,9 @@
 <template>
   <nav class="nav">
     <div class="nav__wrapper">
-      <button>Забронировать</button>
+      <button class="nav__button button button--primary button--rounded">
+        <p>Забронировать</p>
+      </button>
       <ul class="nav__list">
         <!--      <slot name="left-nav" />-->
         <li v-for="link in getLinkList.left" :key="link.path" class="nav-item">

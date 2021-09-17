@@ -1,20 +1,14 @@
-<template lang="pug">
-  .faq
-    .container
-      .wrapper
-        app-accordion(:accordionContent="questions")
+<template>
+  <div class="faq">
+    <app-section-faq />
+  </div>
 </template>
 <script>
-import { faq } from '~/content/faq'
-import AppAccordion from '~/components/AppAccordion'
+
+import AppSectionFaq from '~/components/AppSectionFaq'
 
 export default {
   name: 'Faq',
-  components: { AppAccordion },
-  computed: {
-    questions () {
-      return faq
-    }
-  }
+  components: { AppSectionFaq }
 }
 </script>

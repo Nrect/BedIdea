@@ -1,5 +1,5 @@
 <template lang="pug">
-  .gallery
+  .gallery.page-section
     h2.title {{ translate.galleryTitle }}
     .container
       hooper.gallery__slider(

@@ -13,6 +13,11 @@ html {
   box-sizing: inherit;
 }
 
+*::selection {
+  color: $--white;
+  background: $--primary-bg--light;
+}
+
 body {
   background-color: $--body-bg;
 }

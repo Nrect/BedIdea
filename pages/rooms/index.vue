@@ -1,5 +1,5 @@
 <template lang="pug">
-  .rooms
+  .rooms.page-section
     .container
       .rooms__cards
         .rooms__cards-wrapper(v-for="(room,idx) in rooms" :key="idx")

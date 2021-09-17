@@ -9,6 +9,10 @@
   &__list {
     @extend %display-flex-space-between;
   }
+
+  &__button{
+    padding: 9px 24px;
+  }
 }
 
 @media screen and (max-width: 1200px) {

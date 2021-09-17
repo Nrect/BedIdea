@@ -1,22 +1,9 @@
 .other-rooms-section {
-  margin-top: 100px;
-  margin-bottom: -88px;
-  padding: 100px 0;
-
   background: $--secondary-bg url("#{$base-url}room-bg.png") center no-repeat;
   background-size: cover;
 
   .title {
     color: $--white;
     margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .other-rooms-section {
-    margin-top: 100px;
-    margin-bottom: -52px;
-    padding: 80px 0;
-
   }
 }

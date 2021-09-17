@@ -1,6 +1,6 @@
 <template lang="pug">
   .room-current
-    .container
+    .container.page-section
       .card-about
         hooper(ref="carousel" :settings="hooperSettings").card-about__slider
           slide.card-about__slide(v-for="(img,idx) in room.imageSet" :key="idx")
