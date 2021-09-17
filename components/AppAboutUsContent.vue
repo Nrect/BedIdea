@@ -24,10 +24,10 @@
         .card-about__buttons
           span.card-about__btn.button.button--primary.button--rounded
             nuxt-link(:to="localePath('/faq')")
-              p {{ translate.living }}
+              | {{ translate.living }}
           span.card-about__btn.button.button--secondary.button--rounded
             nuxt-link(:to="localePath('/contacts')")
-              p {{ translate.contactsUs }}
+              | {{ translate.contactsUs }}
 </template>
 
 <script>

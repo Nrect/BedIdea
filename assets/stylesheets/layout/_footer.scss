@@ -127,6 +127,8 @@
   }
 
   &__btn {
+    display: flex;
+    justify-content: center;
     z-index: 10;
     margin-top: 10px;
 
@@ -137,7 +139,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .footer {
     padding: 0;
 
