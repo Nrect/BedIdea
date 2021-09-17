@@ -9,8 +9,8 @@
 </template>
 <script>
 import AppSprites from '~/components/AppSprites'
-import AppHeader from '~/components/AppHeader'
-import AppFooter from '~/components/AppFooter'
+import AppHeader from '~/components/AppLayoutHeader'
+import AppFooter from '~/components/AppLayoutFooter'
 import AppTopPanel from '~/components/AppTopPanel'
 
 export default {

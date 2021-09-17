@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import AppNav from '~/components/AppNav'
+import AppNav from '~/components/AppLayoutNav'
 import AppHeaderMobileMenu from '~/components/AppHeaderMobileMenu'
 import AppHeaderMobailLangSwitcher from '~/components/AppHeaderMobilelLangSwitcher'
 

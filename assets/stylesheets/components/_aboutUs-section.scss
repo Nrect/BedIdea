@@ -1,0 +1,83 @@
+.aboutUs-section {
+  background-color: $--white;
+
+  &__wrapper {
+    @extend %display-flex-column;
+    align-items: center;
+  }
+
+  &__cards {
+    margin-bottom: 20px;
+
+    @extend %display-flex;
+    justify-content: space-around;
+  }
+
+  &__card {
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 30%;
+
+    background: $--body-bg;
+    border: 2px dashed $--primary-bg;
+    border-radius: $--border-radius
+  }
+
+  &__card-icon {
+    margin-bottom: 15px;
+
+    width: 64px;
+    height: 64px;
+    fill: $--primary-bg--light;
+  }
+
+  &__card-title {
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: $--font-headers;
+  }
+
+  &__card-description {
+    line-height: 1.5;
+  }
+
+  &__button {
+    padding: 20px;
+
+    max-width: 300px;
+
+    text-align: center;
+    color: $--white;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutUs-section {
+    &__cards {
+      flex-wrap: wrap;
+    }
+
+    &__card {
+      margin-bottom: 20px;
+      flex-basis: 100%;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutUs-section {
+    &__card {
+      padding: 15px;
+    }
+  }
+}

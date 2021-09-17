@@ -1,7 +1,8 @@
 <template lang="pug">
-  .container.page-section
-    h2.title {{sectionTitle}}
-    app-accordion(:accordionContent="questions")
+  .page-section
+    .container
+      h2.title {{sectionTitle}}
+      app-accordion(:accordionContent="questions")
 </template>
 
 <script>

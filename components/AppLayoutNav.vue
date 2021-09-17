@@ -29,9 +29,9 @@
           </nuxt-link>
         </li>
       </ul>
-      <div class="header-nav__i18n">
+      <div class="nav-item__i18n">
         <nuxt-link
-          class="header-nav__i18n-btn"
+          class="nav-item__i18n-btn"
           :to="switchLocalePath('ru')"
           exact
           @click.native="changeLanguage('ru')"
@@ -40,7 +40,7 @@
         </nuxt-link>
         |
         <nuxt-link
-          class="header-nav__i18n-btn"
+          class="nav-item__i18n-btn"
           :to="switchLocalePath('en')"
           exact
           @click.native="changeLanguage('en')"
