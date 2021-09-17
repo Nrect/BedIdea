@@ -32,12 +32,14 @@
 'components/card-about',
 'components/services-cards',
 'components/title',
-'components/card-slider',
 'components/gallery',
 'components/rooms',
 'components/room-card',
 'components/quote';
 
-// 6. Page-specific styles
+// 6. Sections
+@import 'sections/other-roons-section';
+
+// 7. Page-specific styles
 @import 'pages/services',
 'pages/page-section';

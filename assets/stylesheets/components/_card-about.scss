@@ -68,17 +68,14 @@
 
   &__map-btn {
     padding: 25px;
-    background: $--main;
-    border: 1px solid $--main-darker;
+
+    @extend %transition;
+    border: none;
     cursor: pointer;
 
     img {
       height: 50px;
       width: 50px;
-    }
-
-    &:hover {
-      background: lighten($--main, 5);
     }
   }
 
@@ -91,6 +88,7 @@
     text-align: center;
     text-transform: uppercase;
   }
+
 
   &__text-title {
     margin-bottom: 15px;
@@ -121,13 +119,28 @@
     }
   }
 
+  &__link {
+    @extend %transition;
+    cursor: pointer;
+
+    &:hover {
+      p {
+        color: $--primary;
+      }
+
+      svg {
+        fill: $--primary;
+      }
+    }
+  }
+
   &__contact-icon {
     margin-right: 24px;
     width: 24px;
     height: 24px;
     min-height: 24px;
     min-width: 24px;
-    fill: $--main;
+    fill: $--secondary;
     flex-grow: 0;
 
     &--text {

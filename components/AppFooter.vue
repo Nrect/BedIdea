@@ -7,8 +7,9 @@
           .footer__subLogo
             p.footer__subtitle {{ translate.footer.title }}
             p.footer__slug {{ translate.footer.titleSlug }}
-            span.footer__btn.btn.btn--secondary
-              button(@click="toggleBookingModal") {{ translate.common.booking }}
+            span.footer__btn
+              button(@click="toggleBookingModal").button.button--primary.button--rounded
+                p {{ translate.common.booking }}
         .footer__nav
           h3.footer__title {{ translate.footer.navigation }}
           ul.footer__nav-list
@@ -20,11 +21,11 @@
             svg.footer__contact-icon
               use(xlink:href="#mobile-alt")
             a(href="tel:+79637384646") +7 (963) 738 46 46
-            a(href="viber://chat?number=%2B79637384646" target="_blank")
-              svg.footer__contact-icon
+            a(href="viber://chat?number=%2B79637384646" target="_blank").footer__contact-link
+              svg.footer__contact-link-ico
                 use(xlink:href="#viber")
-            a(href="https://wa.me/+79637384646" target="_blank")
-              svg.footer__contact-icon
+            a(href="https://wa.me/+79637384646" target="_blank").footer__contact-link
+              svg.footer__contact-link-ico
                 use(xlink:href="#whatsapp")
           .footer__contact
             svg.footer__contact-icon

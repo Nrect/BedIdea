@@ -1,4 +1,6 @@
 .logo {
+  @extend %display-flex-center;
+
   &__icon {
     height: 112px;
     width: 180px;

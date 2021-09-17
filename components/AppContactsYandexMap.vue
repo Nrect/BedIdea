@@ -1,9 +1,10 @@
 <template>
   <client-only>
     <iframe
-      src="https://yandex.ru/map-widget/v1/?um=constructor%3A4166eaaafcca604ff2530f7aa422cdab3ecc2437794340382aff54f1a5aea775&amp;source=constructor"
+      src="https://yandex.ru/map-widget/v1/-/CCUmnZGMPC"
       width="100%"
       height="550"
+      style="border-radius:10px 10px 0 0"
       frameborder="0"
     />
   </client-only>

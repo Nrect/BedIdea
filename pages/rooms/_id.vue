@@ -25,19 +25,18 @@
                 p {{translate.back}}
             button().card-about__btn.button.button--secondary.button--rounded
               p {{translate.booking}}
-    //.other-rooms
-    //  app-rooms-section(:title="translateRooms")
+    app-section-other-rooms(:title="translateRooms")
 
 </template>
 
 <script>
 // import { mapActions } from 'vuex'
 import { roomsData } from '~/content/rooms'
-// import AppRoomsSection from '~/components/index/RoomsSection'
+import AppSectionOtherRooms from '~/components/AppSectionOtherRooms'
 
 export default {
   name: 'RoomId',
-  // components: { AppRoomsSection },
+  components: { AppSectionOtherRooms },
   validate ({ params }) {
     for (const room of roomsData) {
       if (room.slug === params.id) {
