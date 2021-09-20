@@ -5,8 +5,8 @@ export default {
     booking: 'Book now',
     availability: 'Show availability',
     back: 'Back',
-    phone: '+7 (4012) 37-46-46 (urban)',
-    address: 'Kaliningrad region, Guryevsky district, Pribrezhnoe village, st. Southern half ring, 4'
+    phone: '+7 (963) 291-11-55 (urban)',
+    address: 'Kaliningrad region, 236019 Kaliningrad, Mira prospect, 166a'
   },
   introTitle: {
     index: 'HOSTEL PALMBURG',
@@ -20,7 +20,7 @@ export default {
   },
   footer: {
     title: 'BED IDEA',
-    titleSlug: 'A QUIET HAVEN AWAY FROM THE HUSTLE AND BUSTLE OF THE CITY',
+    titleSlug: 'A cozy and modern hostel in a quiet historical area of ​​the city of Kaliningrad',
     navigation: 'Navigation',
     contacts: 'Our Contacts'
   },
@@ -63,7 +63,7 @@ export default {
       {
         title: '3. Service',
         description:
-        'Our team consists of young and responsive guys who are ready to help you spend a great time visiting us. Organize an excursion, transfer, evening leisure, answer all your questions for us only for happiness. We are always clean! Administrators monitor the maintenance of cleanliness around the clock.',
+          'Our team consists of young and responsive guys who are ready to help you spend a great time visiting us. Organize an excursion, transfer, evening leisure, answer all your questions for us only for happiness. We are always clean! Administrators monitor the maintenance of cleanliness around the clock.',
         descriptionSecond: 'Our doors are always open for you.'
       }
     ],

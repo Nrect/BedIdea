@@ -16,21 +16,21 @@
               .card-about__contact
                 svg.card-about__contact-icon
                   use(xlink:href="#phone")
-                a(href="tel:+74012374646").card-about__link
+                a(href="tel:+79632911155").card-about__link
                   p {{ translate.common.phone }}
               .card-about__contact
                 svg.card-about__contact-icon
                   use(xlink:href="#envelop")
-                a(href="mailto:hostelpalmburg@gmail.com").card-about__link
-                  p hostelpalmburg@gmail.com
+                a(href="mailto:hostelbedidea@gmail.com").card-about__link
+                  p hostelbedidea@gmail.com
               .card-about__contact
                 svg.card-about__contact-icon
                   use(xlink:href="#mobile-alt")
-                p +7 (963) 738 46 46
-                a(href="viber://chat?number=%2B79637384646" target="_blank").card-about__link
+                p +7 (000) 000 00 00
+                a(href="viber://chat?number=%2B79632911155" target="_blank").card-about__link
                   svg.card-about__contact-icon.card-about__contact-icon--text
                     use(xlink:href="#viber")
-                a(href="https://wa.me/+79637384646" target="_blank").card-about__link
+                a(href="https://wa.me/+79632911155" target="_blank").card-about__link
                   svg.card-about__contact-icon.card-about__contact-icon--text
                     use(xlink:href="#whatsapp")
               .card-about__contact

@@ -20,7 +20,7 @@
           .footer__contact
             svg.footer__contact-icon
               use(xlink:href="#mobile-alt")
-            a(href="tel:+79637384646").footer__contact--text +7 (963) 738 46 46
+            a(href="tel:+79637384646").footer__contact--text +7 (000) 000 00 00
             a(href="viber://chat?number=%2B79637384646" target="_blank").footer__contact-link
               svg.footer__contact-link-ico
                 use(xlink:href="#viber")
@@ -34,7 +34,7 @@
           .footer__contact
             svg.footer__contact-icon
               use(xlink:href="#envelop")
-            a(href="mailto:hostelpalmburg@gmail.com").footer__contact-text hostelpalmburg@gmail.com
+            a(href="mailto:hostelbedidea@gmail.com").footer__contact-text hostelbedidea@gmail.com
           .footer__contact
             svg.footer__contact-icon
               use(xlink:href="#map-marker")
