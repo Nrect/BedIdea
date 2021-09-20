@@ -1,9 +1,6 @@
 .other-rooms-section {
-  background: $--secondary-bg url("#{$base-url}room-bg.png") center no-repeat;
-  background-size: cover;
-
   .title {
-    color: $--white;
+    color: $--black;
     margin-bottom: 20px;
   }
 }

@@ -1,6 +1,6 @@
 .gallery {
   color: $--white;
-  background: $--black url("#{$base-url}gallery-bg.jpg") center no-repeat;
+  background: $--primary url("#{$base-url}gallery-bg.jpg") center no-repeat;
 
   &__slider {
     margin-top: 20px;
@@ -45,7 +45,7 @@
     height: 42px;
 
     font-size: 20px;
-    background-color: $--primary-bg--light;
+    background-color: $--secondary-bg;
 
     &:nth-child(1) {
       border-radius: $--border-radius 0 0 $--border-radius;

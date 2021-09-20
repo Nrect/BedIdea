@@ -1,0 +1,17 @@
+.hero {
+  background: $--secondary url("#{$base-url}/common/r1.jpg") center no-repeat;
+  background-size: cover;
+  height: 560px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    height: 300px;
+  }
+}

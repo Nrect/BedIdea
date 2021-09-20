@@ -41,7 +41,7 @@
             .room-card__wrapper
               h3.room-card__title {{room.title[actualLocale]}}
               .room-card__description
-                p {{room.content[actualLocale]}}
+                p.room-card__description-text {{room.content[actualLocale]}}
               nuxt-link(:to="localePath('/rooms/'+room.slug)").room-card__btn.room-card__btn--solo.button.button--primary
                 p {{ translate.learnMore }}
       .gallery__buttons

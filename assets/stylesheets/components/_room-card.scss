@@ -7,7 +7,6 @@
   text-align: center;
   border-radius: $--border-radius;
 
-
   &__img {
     position: relative;
 
@@ -65,14 +64,19 @@
   }
 
   &__title {
-    padding: 10px;
+    padding: 20px 0 0 0;
     min-height: 66px;
+    vertical-align: middle;
     text-transform: uppercase;
   }
 
   &__description {
     padding: 0 10px 10px;
     flex: 1;
+  }
+
+  &__description-text {
+    color: $--black;
   }
 }
 
@@ -81,6 +85,14 @@
     &__title {
       min-height: 30px;
       margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .room-card {
+    &__btn {
+      padding: 15px;
     }
   }
 }
