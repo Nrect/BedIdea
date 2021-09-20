@@ -25,6 +25,10 @@ $screen-xl-min: 1200px;
 /// Relative or absolute URL where all assets are served from
 $base-url: '~assets/images/' !default;
 
+//fonts
+$--pacifico: Pacifico, cursive;
+$--lato: 'Lato', sans-serif;
+
 // colors
 $--primary: #CD4700;
 $--secondary: #E3A900;

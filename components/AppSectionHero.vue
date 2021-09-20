@@ -1,5 +1,9 @@
 <template>
-  <div class="hero" />
+  <div class="hero">
+    <h1 class="hero__title">
+      Hostel BedIdea
+    </h1>
+  </div>
 </template>
 
 <script>

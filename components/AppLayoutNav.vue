@@ -1,7 +1,10 @@
 <template>
   <nav class="nav">
     <div class="nav__wrapper">
-      <button class="nav__button button button--primary button--rounded">
+      <button
+        class="nav__button button button--primary button--rounded"
+        @click="toggleBookingModal"
+      >
         <p>Забронировать</p>
       </button>
       <ul class="nav__list">
@@ -53,6 +56,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import { linksNav } from '~/content/links'
 import Logo from '~/components/Logo'
 
@@ -76,8 +80,8 @@ export default {
   methods: {
     changeLanguage (lang) {
       this.$i18n.setLocale(lang)
-    }
-    // ...mapActions('layout', ['toggleBookingModal'])
+    },
+    ...mapActions('layout', ['toggleBookingModal'])
   }
 }
 </script>

@@ -19,7 +19,7 @@ export default {
     subtitle: 'Welcome to the most modern and maritime hostel in Kaliningrad on the banks of the Pregolya River.'
   },
   footer: {
-    title: 'HOSTEL PALMBURG',
+    title: 'BED IDEA',
     titleSlug: 'A QUIET HAVEN AWAY FROM THE HUSTLE AND BUSTLE OF THE CITY',
     navigation: 'Navigation',
     contacts: 'Our Contacts'

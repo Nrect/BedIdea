@@ -19,7 +19,7 @@ export default () => ({
     subtitle: 'Добро пожаловать в самый морской и современный хостел Калининграда на берегу реки Преголя.'
   },
   footer: {
-    title: 'HOSTEL PALMBURG',
+    title: 'BED IDEA',
     titleSlug: 'ТИХАЯ ГАВАНЬ ВДАЛИ ОТ ГОРОДСКОЙ СУЕТЫ',
     navigation: 'Навигация',
     contacts: 'Контакты'
