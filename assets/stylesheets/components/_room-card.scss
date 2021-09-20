@@ -77,6 +77,10 @@
 
   &__description-text {
     color: $--black;
+    height: 90px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }
 
