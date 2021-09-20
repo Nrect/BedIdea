@@ -21,6 +21,7 @@
         .card-about__content(v-for="(advantage,idx) in translate.advantages" :key="idx")
           h3.card-about__text-title {{advantage.title}}
           p.card-about__text {{advantage.description}}
+          p.card-about__text {{advantage.descriptionSecond}}
         .card-about__buttons
           span.card-about__btn.button.button--primary.button--rounded
             nuxt-link(:to="localePath('/faq')")

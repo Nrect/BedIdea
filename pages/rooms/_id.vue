@@ -23,7 +23,7 @@
             span.card-about__btn.button.button--primary.button--rounded
               nuxt-link(:to="localePath('/rooms')")
                 p {{translate.back}}
-            button().card-about__btn.button.button--secondary.button--rounded
+            button(@click="toggleBookingModal").card-about__btn.button.button--secondary.button--rounded
               p {{translate.booking}}
     app-section-other-rooms(:title="translateRooms")
 
@@ -31,6 +31,7 @@
 
 <script>
 // import { mapActions } from 'vuex'
+import { mapActions } from 'vuex'
 import { roomsData } from '~/content/rooms'
 import AppSectionOtherRooms from '~/components/AppSectionOtherRooms'
 
@@ -76,9 +77,9 @@ export default {
         svg[i].getElementsByTagName('path')[0].remove()
       }
     }
+  },
+  methods: {
+    ...mapActions('layout', ['toggleBookingModal'])
   }
-  // methods: {
-  //   ...mapActions('layout', ['toggleBookingModal'])
-  // }
 }
 </script>

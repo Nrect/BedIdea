@@ -1,6 +1,8 @@
 <template>
   <div :class="getIntroClass">
-    <h1>{{ getPageName }}</h1>
+    <div class="container">
+      <h1>{{ getPageName }}</h1>
+    </div>
   </div>
 </template>
 
@@ -56,10 +58,10 @@ export default {
     getRoomName (param) {
       const groupTitle = {
         'two-room': this.$t('roomsTitles.titleTwo'),
-        'six-room': this.$t('roomsTitles.titleSix'),
-        'eight-room': this.$t('roomsTitles.titleEight'),
-        'ten-room': this.$t('roomsTitles.titleTen'),
-        'twelve-room': this.$t('roomsTitles.titleTwelve')
+        'six-room-common': this.$t('roomsTitles.titleSixCommon'),
+        'six-room-women': this.$t('roomsTitles.titleSixWomen'),
+        'nine-room': this.$t('roomsTitles.titleNine'),
+        'four-room': this.$t('roomsTitles.titleFour')
       }
       return groupTitle[param]
     }

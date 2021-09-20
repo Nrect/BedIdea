@@ -40,25 +40,31 @@ export default {
     }
   },
   aboutUs: {
-    title: 'HOSTEL PALMBURG – A QUIET HAVEN AWAY FROM THE HUSTLE AND BUSTLE OF THE CITY',
+    title: 'BEDIDEA is a cozy and modern hostel in a quiet historical area of the city of Kaliningrad.',
     content: [
-      'Welcome to the most modern and maritime hostel in Kaliningrad on the banks of the Pregolya River.',
-      'We are the Hostel Palmburg team!',
-      'Here you will take a break from the "concrete jungle". Clean air and quietness of the suburb will welcome you if you decide to become our guest. We have already thought about you in advance, so you will feel at home. City bustle, hustle and bustle or marvelous sunsets by the water against the backdrop of yachts? The choice is yours alone.'
+      'Welcome to a cozy and modern hostel in a quiet historical area of the city of Kaliningrad.',
+      'Hostel Bed Idea is your best choice when traveling in Kaliningrad!',
+      'We have already thought about you in advance, so you will feel at home. We will provide you with everything you need for a comfortable stay, if you decide to become our guest.'
     ],
     advantagesTitle: 'Why us?',
     advantages: [
       {
         title: '1. Location',
-        description: 'The name "Palmburg" (from German - "Palm City") comes from the name of an estate with agricultural production, located next to the bridge. The owner of the estate grew exotic plants in greenhouses, among which were palms. We are located on the banks of the Pregolya River, in a quiet and picturesque place in our city. On the territory there is a fish restaurant "Skipper" and a yacht club "Marina Palmburg". There is a bus stop 50 m from us.'
+        description:
+          'We are located in a quiet and peaceful part of the city. Nearby there is a grocery store, a sports hall. The bus stop is located in the immediate vicinity of the hostel. A 10-minute walk will take you to the tram stop, which will take you along the incredible route of the city to the main attractions – the Amalienau district, Victory Square, Fish Village and Kanta Island.'
       },
       {
         title: '2. Comfort',
-        description: 'The interior is made in a nautical style: doors with a porthole, vest curtains, seagull-shaped lamps, walls are painted with drawings on the appropriate theme, etc. In the recreation area, you can sit comfortably in a beanbag chair while watching a movie (at such venues as IVI, OKKO, Kinopoisk) or playing a game console. All rooms have individual lockers with locks for clothes and a separate locker for suitcases. The beds are equipped with sockets, a night light, a shelf and a clothes hanger. The kitchen is fully equipped for preparing delicious meals. There is also a washer and dryer so you can travel light. On the street you can use the gazebo with barbecue. For children, we have a playground and a beautiful lawn for playing during the warm season.'
+        description:
+          'The cozy atmosphere of the hostel resembles a homely atmosphere. Dark muted shades of the rooms, for a comfortable sleep, and bright common spaces. In the recreation area, you can comfortably sit on the sofa or in an armchair while watching a movie (at such venues as IVI, OKKO, Kinopoisk) or playing a console. You will feel at home in the rooms, as we have thought through every detail, for your comfort We have taken care of the safety of your belongings. All rooms are equipped with safe boxes with magnetic locks, where you can put all the most valuable things. The beds have sockets, a night light, a shelf and a clothes hanger. The kitchen is fully equipped for cooking delicious dishes. There is also a washing machine and a tumble dryer so that you can travel light.',
+        descriptionSecond:
+          'Guests with a private or rented car can use the underground parking for free, which is guarded around the clock.'
       },
       {
         title: '3. Service',
-        description: 'Our team consists of young and responsive guys who are ready to help you spend a great time with us. Organize an excursion, transfer, evening leisure, answer all your questions for us only for happiness. We are always clean! Our administrators monitor the cleanliness around the clock. Our doors are always open for you.'
+        description:
+        'Our team consists of young and responsive guys who are ready to help you spend a great time visiting us. Organize an excursion, transfer, evening leisure, answer all your questions for us only for happiness. We are always clean! Administrators monitor the maintenance of cleanliness around the clock.',
+        descriptionSecond: 'Our doors are always open for you.'
       }
     ],
     galleryTitle: 'Gallery',
@@ -79,7 +85,7 @@ export default {
     register24: '24/7 front desk',
     kitchen: 'Shared kitchen',
     freeWifi: 'free wifi',
-    tea: 'Tea, coffee and cookies',
+    // tea: 'Tea, coffee and cookies',
     taxi: 'Order a taxi',
     fen: 'HAIR DRYER',
     medical: 'FIRST AID',
@@ -87,34 +93,34 @@ export default {
     // usb: 'USB SOCKETS',
     games: 'BOOKS AND BOARD GAMES',
     // computer: 'SHARED COMPUTER',
-    tv: 'TV CHANNELS + PS4',
-    alcove: 'alcove',
-    playground: 'playground'
+    tv: 'TV CHANNELS + PS4'
+    // alcove: 'alcove'
+    // playground: 'playground'
   },
   paidServices: {
     souvenir: 'Original souvenirs',
     visa: 'Visa help',
-    velo: 'Bicycle for rent',
+    // velo: 'Bicycle for rent',
     excursion: 'Guided tours',
     belie: 'Additional linen and towel change',
     wash: 'Laundry',
     halat: 'Bathrobe',
     bus: 'Airport transfer',
-    breakfast: 'Breakfast',
+    // breakfast: 'Breakfast',
     shoez: 'Slippers',
     cosmetic: 'Cosmetic kits',
-    hygien: 'Hygiene kits',
-    grill: 'gas grill'
+    hygien: 'Hygiene kits'
+    // grill: 'gas grill'
   },
   roomsSection: {
     titleAll: 'Cabins',
     titleCurrent: 'Other cabins'
   },
   roomsTitles: {
-    titleTwo: 'Double Cabin «STANDARD»',
-    titleSix: 'Shared 6-bed cabin',
-    titleEight: 'Women\'s 8-bed cabin',
-    titleTen: 'SHARED 10-BED cabin',
-    titleTwelve: 'Shared 12-bed cabin'
+    titleTwo: 'Double Room with Shared Bathroom and Shower',
+    titleSixCommon: 'Six-bed shared Room with private Bathroom and Shower',
+    titleSixWomen: 'Six-bed female room with private bathroom and shower',
+    titleNine: '9-bed shared room with a private bathroom and showers',
+    titleFour: 'Quadruple Shared Room with Shared Bathroom and Shower'
   }
 }

@@ -13,7 +13,7 @@
               .room-card__buttons
                 nuxt-link(:to="localePath('/rooms/'+room.slug)").room-card__btn.button.button--primary
                   p {{ translate.learnMore }}
-                button().room-card__btn.button.button--secondary
+                button(@click="toggleBookingModal").room-card__btn.button.button--secondary
                   p {{ translate.booking }}
             .room-card__wrapper
               h3.room-card__title {{room.title[actualLocale]}}
@@ -22,6 +22,7 @@
 
 <script>
 // import { mapActions } from 'vuex'
+import { mapActions } from 'vuex'
 import { roomsData } from '~/content/rooms'
 
 export default {
@@ -36,7 +37,7 @@ export default {
     actualLocale () {
       return this.$i18n.locale
     }
-  }
-  // methods: { ...mapActions('layout', ['toggleBookingModal']) }
+  },
+  methods: { ...mapActions('layout', ['toggleBookingModal']) }
 }
 </script>

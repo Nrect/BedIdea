@@ -217,6 +217,14 @@
 
 @media screen and (max-width: 576px) {
   .card-about {
+    &__text {
+      margin: 0;
+      padding: 10px;
+    }
 
+    &__list {
+      margin: 0;
+      padding-left: 45px;
+    }
   }
 }

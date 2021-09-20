@@ -11,7 +11,7 @@
 
   @extend %transition;
 
-  p {
+  p, span {
     padding: 0;
     color: $--white;
   }

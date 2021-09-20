@@ -5,7 +5,7 @@
         class="nav__button button button--primary button--rounded"
         @click="toggleBookingModal"
       >
-        <p>Забронировать</p>
+        <span>{{ booking }}</span>
       </button>
       <ul class="nav__list">
         <!--      <slot name="left-nav" />-->

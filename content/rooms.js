@@ -1,4 +1,5 @@
 export const roomsData = [
+  // -------------
   {
     slug: 'two-room',
     imgSrc: {
@@ -7,49 +8,37 @@ export const roomsData = [
       // avif: require('@/assets/images/room2/1.jpg?resize&format=avif')
     },
     title: {
-      ru: 'ДВУХМЕСТНая Каюта «СТАНДАРТ»',
-      en: 'Double Cabin «STANDARD»'
+      ru: 'Двухместный номер с общим с\\у и душем',
+      en: 'Double Room with Shared Bathroom and Shower'
     },
     content: {
-      ru: 'Уютный, просторный, светлый двухместный номер с двуспальной кроватью, ТВ, душем и санузлом, гардеробной зоной, ортопедическим матрасом и индивидуальным освещением.',
-      en: 'Cozy, spacious, bright double room with a double bed, TV, shower and bathroom, dressing area, orthopedic mattress and individual lighting.'
+      ru: 'Небольшой номер на двоих или одного человека, кто предпочитает уединение. Общий санузел вне номера.',
+      en: 'A small room for two or one person who prefers privacy. Shared bathroom outside the room.'
     },
     advantages: [
       {
-        ru: 'двуспальная кровать King-Size',
-        en: 'double bed King-Size'
+        ru: 'ТВ',
+        en: 'TV'
+      },
+      {
+        ru: 'Крючки для одежды',
+        en: 'Hooks for clothes'
       },
       {
         ru: 'ортопедический матрас',
         en: 'orthopedic mattress'
       },
       {
-        ru: 'удобные подушки и одеяла',
-        en: 'comfortable pillows and blankets'
+        ru: 'белоснежное белье',
+        en: 'snow-white underwear'
       },
       {
-        ru: 'постельное белье и полотенца предоставляются',
-        en: 'bed linen and towels are provided'
+        ru: 'добные подушки и одеяла',
+        en: 'comfortable pillows and blanket'
       },
       {
-        ru: 'индивидуальное освещение',
-        en: 'individual lighting'
-      },
-      {
-        ru: 'туалет и душевая в номере, теплый пол',
-        en: 'toilet and shower in the room, underfloor heating'
-      },
-      {
-        ru: 'место для хранения багажа',
-        en: 'luggage storage space'
-      },
-      {
-        ru: 'гардеробная зона',
-        en: 'dressing area'
-      },
-      {
-        ru: 'ТВ',
-        en: 'TV'
+        ru: 'розетки',
+        en: 'sockets'
       }
     ],
     imageSet: [
@@ -66,13 +55,14 @@ export const roomsData = [
     ],
     additionContent: [
       {
-        ru: 'Идеально подходит для путешественников, которые любят атмосферу хостела, но предпочитают большую приватность и комфорт.',
-        en: 'Ideal for travelers who love the atmosphere of the hostel, but prefer more privacy and comfort.'
+        ru: 'Небольшой номер на двоих или одного человека, кто предпочитает уединение. Общий санузел вне номера.',
+        en: 'A small room for two or one person who prefers privacy. Shared bathroom outside the room.'
       }
     ]
   },
+  // -------------
   {
-    slug: 'six-room',
+    slug: 'six-room-common',
     imgSrc: {
       jpg: require('@/assets/images/2room/r1.jpg')
       // jpg: require('@/assets/images/room6/1.jpg?resize'),
@@ -130,8 +120,9 @@ export const roomsData = [
       en: 'It offers spacious shared showers and toilets, a fully equipped kitchen, and a seating area with board games and a game console.'
     }]
   },
+  // -------------
   {
-    slug: 'eight-room',
+    slug: 'six-room-women',
     imgSrc: {
       jpg: require('@/assets/images/2room/r1.jpg')
       // jpg: require('@/assets/images/room8/1.jpg?resize'),
@@ -190,8 +181,9 @@ export const roomsData = [
       en: 'It offers spacious shared showers and toilets, a fully equipped kitchen, and a seating area with board games and a game console'
     }]
   },
+  // -------------
   {
-    slug: 'ten-room',
+    slug: 'nine-room',
     imgSrc: {
       jpg: require('@/assets/images/2room/r1.jpg')
       // jpg: require('@/assets/images/room6/1.jpg?resize'),
@@ -248,8 +240,9 @@ export const roomsData = [
       en: 'It offers spacious shared showers and toilets, a fully equipped kitchen, and a seating area with board games and a game console.'
     }]
   },
+  // -------------
   {
-    slug: 'twelve-room',
+    slug: 'four-room',
     imgSrc: {
       jpg: require('@/assets/images/2room/r1.jpg')
       // jpg: require('@/assets/images/room6/1.jpg?resize'),

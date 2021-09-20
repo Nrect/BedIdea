@@ -12,7 +12,7 @@
 import AppSprites from '~/components/AppSprites'
 import AppHeader from '~/components/AppLayoutHeader'
 import AppFooter from '~/components/AppLayoutFooter'
-import AppTopPanel from '~/components/AppTopPanel'
+import AppTopPanel from '~/components/AppLayoutTopPanel'
 import AppBookingModal from '~/components/AppBookingModal'
 
 export default {
