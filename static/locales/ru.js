@@ -146,7 +146,7 @@ export default () => ({
   roomsSection: {
     titleAll: 'Каюты',
     titleCurrent:
-      'Другие каюты'
+      'Другие номера'
   },
   roomsTitles: {
     titleTwo: 'Двухместный номер с общим с\\у и душем',

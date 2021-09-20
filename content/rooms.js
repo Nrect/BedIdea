@@ -44,13 +44,29 @@ export const roomsData = [
     imageSet: [
       {
         jpg: require('@/assets/images/2room/r1.jpg')
-        // jpg: require('@/assets/images/room6/1.jpg?resize'),
         // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
+        // avif: require('@/assets/images/room6/1.jpg?resize&format=avif')
       },
       {
         jpg: require('@/assets/images/2room/r2.jpg')
-        // jpg: require('@/assets/images/room6/1.jpg?resize'),
-        // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
+      },
+      {
+        jpg: require('@/assets/images/2room/r3.jpg')
+      },
+      {
+        jpg: require('@/assets/images/2room/r4.jpg')
+      },
+      {
+        jpg: require('@/assets/images/2room/r5.jpg')
+      },
+      {
+        jpg: require('@/assets/images/2room/r6.jpg')
+      },
+      {
+        jpg: require('@/assets/images/2room/r7.jpg')
+      },
+      {
+        jpg: require('@/assets/images/2room/r8.jpg')
       }
     ],
     additionContent: [
@@ -124,18 +140,18 @@ export const roomsData = [
   {
     slug: 'six-room-women',
     imgSrc: {
-      jpg: require('@/assets/images/2room/r1.jpg')
+      jpg: require('@/assets/images/6room-women/r1 (1).jpg')
       // jpg: require('@/assets/images/room8/1.jpg?resize'),
       // webp: require('@/assets/images/room8/1.jpg?resize&format=webp'),
       // avif: require('@/assets/images/room8/1.jpg?resize&format=avif')
     },
     title: {
-      ru: 'ЖЕНСКая 8 - МЕСТНая каюта',
-      en: 'Women\'s 8-bed cabin'
+      ru: 'Шестиместный женский номер с собственным с\\у и душем',
+      en: 'Six-bed female room with private bathroom and shower'
     },
     content: {
-      ru: 'Номер для женщин с 8 местами, расположенными в комфортных двухъярусных «слип-боксах»',
-      en: 'Room for women with 8 seats, located in comfortable bunk " slip-boxes»'
+      ru: 'В номере расположены 3 двухъярусные кровати, письменные столы, уютный балкончик и персональные шкафчики, закрывающиеся на единую ключ-карту. В санузле предусмотрены фен и специальный стеллаж для мелочей.',
+      en: 'The room has 3 bunk beds, desks, a cozy balcony and personal lockers that can be locked with a single key card. The bathroom has a hairdryer and a special rack for small things.'
     },
 
     advantages: [
@@ -160,8 +176,8 @@ export const roomsData = [
         en: 'shelf for small things'
       },
       {
-        ru: 'шкаф для одежды и ящик для багажа',
-        en: 'wardrobe and luggage storage box'
+        ru: '2 розетки',
+        en: '2 sockets'
       },
       {
         ru: 'вход закрывается плотной шторкой',
@@ -170,15 +186,60 @@ export const roomsData = [
     ],
     imageSet: [
       {
-        jpg: require('@/assets/images/2room/r1.jpg')
+        jpg: require('@/assets/images/6room-women/r1 (1).jpg')
         // jpg: require('@/assets/images/room6/1.jpg?resize'),
         // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
         // avif: require('@/assets/images/room6/1.jpg?resize&format=avif')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (2).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (3).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (4).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (5).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (6).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (7).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (8).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (9).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (10).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (11).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (12).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (13).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (14).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (15).jpg')
+      },
+      {
+        jpg: require('@/assets/images/6room-women/r1 (16).jpg')
       }
     ],
     additionContent: [{
-      ru: 'К услугам гостей просторные общие душевые и туалеты, полностью укомплектованная кухня, зона отдыха с настольными играми и игровой консолью',
-      en: 'It offers spacious shared showers and toilets, a fully equipped kitchen, and a seating area with board games and a game console'
+      ru: 'В номере расположены 3 двухъярусные кровати, письменные столы, уютный балкончик и персональные шкафчики, закрывающиеся на единую ключ-карту. В санузле предусмотрены фен и специальный стеллаж для мелочей.',
+      en: 'The room has 3 bunk beds, desks, a cozy balcony and personal lockers that can be locked with a single key card. The bathroom has a hairdryer and a special rack for small things.'
     }]
   },
   // -------------

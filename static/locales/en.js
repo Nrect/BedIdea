@@ -114,7 +114,7 @@ export default {
   },
   roomsSection: {
     titleAll: 'Cabins',
-    titleCurrent: 'Other cabins'
+    titleCurrent: 'Other rooms'
   },
   roomsTitles: {
     titleTwo: 'Double Room with Shared Bathroom and Shower',
