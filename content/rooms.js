@@ -8,8 +8,8 @@ export const roomsData = [
       // avif: require('@/assets/images/room2/1.jpg?resize&format=avif')
     },
     title: {
-      ru: 'Двухместный номер с общим с\\у и душем',
-      en: 'Double Room with Shared Bathroom and Shower'
+      ru: 'Двухместный номер',
+      en: 'Double Room'
     },
     content: {
       ru: 'Небольшой номер на двоих или одного человека, кто предпочитает уединение. Общий санузел вне номера.',
@@ -86,8 +86,8 @@ export const roomsData = [
       // avif: require('@/assets/images/room6/1.jpg?resize&format=avif')
     },
     title: {
-      ru: '6-местный общий номер с с\\у и душевой',
-      en: '6-bed shared room with bathroom and shower'
+      ru: '6-местный общий номер',
+      en: '6-bed shared room'
     },
     content: {
       ru: 'В номере расположены 3 двухъярусные кровати, письменные столы, уютный балкончик и персональные шкафчики, закрывающиеся на специальную карту.',
@@ -150,8 +150,8 @@ export const roomsData = [
       // avif: require('@/assets/images/room8/1.jpg?resize&format=avif')
     },
     title: {
-      ru: '6-местный женский номер с собственным с\\у и душем',
-      en: '6-bed female room with private bathroom and shower'
+      ru: '6-местный женский номер',
+      en: '6-bed female room'
     },
     content: {
       ru: 'В номере расположены 3 двухъярусные кровати, письменные столы, уютный балкончик и персональные шкафчики, закрывающиеся на единую ключ-карту. В санузле предусмотрены фен и специальный стеллаж для мелочей.',
@@ -255,8 +255,8 @@ export const roomsData = [
       // webp: require('@/assets/images/room6/1.jpg?resize&format=webp'),
     },
     title: {
-      ru: '9-местный общий номер с с\\у и душевой',
-      en: '9-bed shared room with bathroom and shower'
+      ru: '9-местный общий номер',
+      en: '9-bed shared room'
     },
     content: {
       ru: 'В номере расположено 4 двухъярусные и 1 отдельная односпальная кровати, уютный балкончик и персональные шкафчики, закрывающиеся на единую ключ-карту.',

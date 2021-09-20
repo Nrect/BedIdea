@@ -143,7 +143,7 @@ export default () => ({
     //   'газовый гриль'
   },
   roomsSection: {
-    titleAll: 'Каюты',
+    titleAll: 'Комнаты',
     titleCurrent:
       'Другие номера'
   },

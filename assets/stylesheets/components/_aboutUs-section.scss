@@ -23,7 +23,7 @@
     flex-basis: 30%;
 
     background: $--body-bg;
-    border: 2px dashed $--secondary;
+    border: 2px dashed $--secondary-bg;
     border-radius: $--border-radius
   }
 
@@ -32,7 +32,7 @@
 
     width: 64px;
     height: 64px;
-    fill: $--primary-bg--light;
+    fill: $--secondary;
   }
 
   &__card-title {

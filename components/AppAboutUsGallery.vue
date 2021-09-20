@@ -28,24 +28,24 @@ export default {
     return {
       galleryImages: [
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0010.jpg')
+          jpg: require('@/assets/images/common/r (1).jpg')
           // webp: require('@/assets/images/about-us/1.jpg?resize&format=webp')
           // // avif: require('@/assets/images/about-us/1.jpg?resize&format=avif')
         },
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0011.jpg')
+          jpg: require('@/assets/images/common/r (2).jpg')
         },
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0011.jpg')
+          jpg: require('@/assets/images/common/r (3).jpg')
         },
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0011.jpg')
+          jpg: require('@/assets/images/common/r (4).jpg')
         },
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0011.jpg')
+          jpg: require('@/assets/images/common/r (5).jpg')
         },
         {
-          jpg: require('@/assets/images/common/booking_hostelmira_0011.jpg')
+          jpg: require('@/assets/images/common/r (6).jpg')
         }
       ],
       hooperSettings: {
