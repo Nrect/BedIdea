@@ -9,7 +9,7 @@
 
 <script>
 import AppAboutUsContent from '~/components/AppAboutUsContent'
-import AppAboutUsGallery from '~/components/AppAboutUsGallery'
+import AppAboutUsGallery from '~/components/AppSectionAboutUsGallery'
 export default {
   name: 'AboutUs',
   components: { AppAboutUsGallery, AppAboutUsContent }

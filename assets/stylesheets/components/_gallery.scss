@@ -1,6 +1,8 @@
 .gallery {
-  color: $--white;
-  background: $--primary url("#{$base-url}gallery-bg.jpg") center no-repeat;
+  //color: $--white;
+  color: $--black;
+  //background: $--primary;
+  //background: $--primary url("#{$base-url}gallery-bg.jpg") center no-repeat;
 
   &__slider {
     margin-top: 20px;
@@ -56,7 +58,7 @@
     }
 
     &:hover {
-      background: $--secondary;
+      background-color: darken($--secondary-bg, 10%);
     }
 
     svg {

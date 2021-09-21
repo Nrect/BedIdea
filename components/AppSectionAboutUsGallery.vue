@@ -28,24 +28,34 @@ export default {
     return {
       galleryImages: [
         {
-          jpg: require('@/assets/images/common/r (1).jpg')
+          jpg: require('@/assets/images/gallery/r1 (1).jpg')
           // webp: require('@/assets/images/about-us/1.jpg?resize&format=webp')
           // // avif: require('@/assets/images/about-us/1.jpg?resize&format=avif')
         },
         {
-          jpg: require('@/assets/images/common/r (2).jpg')
+          jpg: require('@/assets/images/gallery/r1 (2).jpg')
         },
         {
-          jpg: require('@/assets/images/common/r (3).jpg')
+          jpg: require('@/assets/images/gallery/r1 (3).jpg')
         },
         {
-          jpg: require('@/assets/images/common/r (4).jpg')
+          jpg: require('@/assets/images/gallery/r1 (7).jpg')
         },
         {
-          jpg: require('@/assets/images/common/r (5).jpg')
+          jpg: require('@/assets/images/gallery/r1 (9).jpg')
         },
         {
-          jpg: require('@/assets/images/common/r (6).jpg')
+          jpg: require('@/assets/images/gallery/r1 (10).jpg')
+        },
+
+        {
+          jpg: require('@/assets/images/gallery/r1 (11).jpg')
+        },
+        {
+          jpg: require('@/assets/images/gallery/r1 (12).jpg')
+        },
+        {
+          jpg: require('@/assets/images/gallery/r1 (14).jpg')
         }
       ],
       hooperSettings: {
