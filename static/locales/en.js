@@ -28,15 +28,15 @@ export default {
     title: 'Why us',
     card1: {
       title: 'Location',
-      content: 'We are located on the banks of the Pregolya River, in a quiet and picturesque place in our city.'
+      content: 'We are located in a quiet and peaceful part of the city. Nearby there is a grocery store, a sports hall'
     },
     card2: {
       title: 'Comfort',
-      content: 'In the recreation area, you can sit comfortably in a beanbag chair while watching a movie (at such venues as IVI, OKKO, Kinopoisk) or playing a game console.'
+      content: 'The cozy atmosphere of the hostel resembles a homely atmosphere. Dark muted shades of the rooms, for a comfortable sleep, and bright common spaces'
     },
     card3: {
       title: 'Service',
-      content: 'Our team consists of young and responsive guys who are ready to help you spend a great time with us.'
+      content: 'Our team consists of young and responsive guys who are ready to help you spend a great time with us'
     }
   },
   aboutUs: {
