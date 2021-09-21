@@ -1,26 +1,30 @@
-<template lang="pug">
-  .services.page-section
-    .container
-      .wrapper
-        h2.title {{ this.$t('serviceTypes').free }}
-        app-services-cards(:services="this.$t('freeServices')")
-    .quote
-      .container
-        .wrapper
-          h2.quote__title.title {{ this.$t('quote').title }}
-          .quote__description {{ this.$t('quote').description }}
-    .container
-      .wrapper
-        h2.title {{ this.$t('serviceTypes').paid }}
-        app-services-cards(:services="this.$t('paidServices')")
-
+<template>
+  <div class="services">
+    <div class="container page-section">
+      <h2 class="title">
+        {{ this.$t('serviceTypes').free }}
+      </h2>
+      <app-services-cards :services="this.$t('freeServices')" />
+    </div>
+    <app-section-divider />
+    <div class="container page-section">
+      <h2 class="title">
+        {{ this.$t('serviceTypes').paid }}
+      </h2>
+      <app-services-cards :services="this.$t('paidServices')" />
+    </div>
+  </div>
 </template>
 
 <script>
 import AppServicesCards from '~/components/AppServicesCards'
+import AppSectionDivider from '~/components/AppSectionDivider'
 
 export default {
   name: 'Services',
-  components: { AppServicesCards }
+  components: {
+    AppServicesCards,
+    AppSectionDivider
+  }
 }
 </script>

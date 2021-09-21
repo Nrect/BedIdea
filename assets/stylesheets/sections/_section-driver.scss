@@ -1,0 +1,13 @@
+.section-divider {
+  background-color: $--secondary;
+
+  &__title {
+    font-family: $--pacifico;
+    text-transform: uppercase;
+    color: $--white;
+  }
+
+  &__description {
+    color: $--white;
+  }
+}
