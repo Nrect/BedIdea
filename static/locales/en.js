@@ -111,7 +111,7 @@ export default {
     // grill: 'gas grill'
   },
   roomsSection: {
-    titleAll: 'Комнаты',
+    titleAll: 'Rooms',
     titleCurrent: 'Other rooms'
   },
   roomsTitles: {

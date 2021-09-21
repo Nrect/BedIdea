@@ -2,7 +2,12 @@
 .page-leave-active {
   transition: opacity 0.5s;
 }
+
 .page-enter,
 .page-leave-to {
   opacity: 0;
+}
+
+.nuxt-link-active, .nuxt-link-exact-active {
+  color: $--primary !important;
 }
