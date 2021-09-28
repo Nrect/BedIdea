@@ -21,11 +21,11 @@
   }
 
   &--primary {
-    background-color: $--primary;
+    background-color: $--secondary-bg;
 
     &:hover {
       color: $--white;
-      background-color: darken($--primary, 10%);
+      background-color: darken($--secondary-bg, 10%);
     }
   }
 

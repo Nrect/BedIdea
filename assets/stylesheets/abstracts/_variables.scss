@@ -13,7 +13,7 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 $transition-delay: .3s;
 
 // border
-$--border-radius: 10px;
+$--border-radius: 0;
 $--border-radius--img: $--border-radius $--border-radius 0 0;
 
 /// Breakpoints
@@ -28,6 +28,7 @@ $base-url: '~assets/images/' !default;
 //fonts
 $--pacifico: Pacifico, cursive;
 $--lato: 'Lato', sans-serif;
+$--header-font: 'Raleway', sans-serif;
 
 // colors
 $--primary: #CD4700;
@@ -43,24 +44,9 @@ $--gray-text: #8B8B8B;
 /// spacing
 $--spacing-title: 9.5px;
 //shadow
-$--card-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
+//$--card-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
+$--card-shadow: none;
 
 //trash
 $text-color: rgb(34, 34, 34) !default;
-$brand-color: rgb(229, 0, 80) !default;
-$light-grey: rgb(237, 237, 237) !default;
-$mid-grey: rgb(153, 153, 153) !default;
-$dark-grey: rgb(68, 68, 68) !default;
-$--black-darker: #000419;
-$--black-text: rgba(40, 54, 75, 1);
-$--black-light: rgba(40, 54, 75, .2);
 $--gray: #F1F0E8;
-$--gray-lighter: rgba(241, 240, 232, .5);
-$--main: #CEBD88;
-$--main-darker: #b09f6a;
-$--main-lighter: rgba(206, 189, 136, .5);
-$--red: #E14C38;
-
-$--font-main: 'Raleway';
-$--font-headers: 'Comfortaa';
-$--font-subheaders: 'Pinyon Script';

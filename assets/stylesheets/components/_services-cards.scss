@@ -40,8 +40,10 @@
   }
 
   &__card-title {
-    font-weight: 400;
     flex: 1 0 auto;
+    font-family: $--lato;
+    font-weight: 400;
+    font-style: normal;
     text-transform: uppercase;
   }
 }

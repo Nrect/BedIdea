@@ -82,7 +82,7 @@
     padding: 0;
 
     .nuxt-link-active {
-      color: $--white;
+      color: $--white !important;
       background: $--primary;
     }
   }
